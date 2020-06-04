@@ -1,6 +1,6 @@
 package com.dwkj.service.controller;
 
-import com.dwkj.base.bean.TestBean;
+import com.dwkj.base.fun.bean.test.TestBean;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

@@ -1,7 +1,7 @@
 package com.dwkj.web.service;
 
-import com.dwkj.base.bean.TestBean;
-import org.springframework.cloud.netflix.feign.FeignClient;
+import com.dwkj.base.fun.bean.test.TestBean;
+import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

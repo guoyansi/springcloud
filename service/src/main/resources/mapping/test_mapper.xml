@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.hstc.service_tire_net_plat.fun.dao.ITestDao">
+
+    <select id="getTestList" parameterType="int" resultType="com.hstc.base_tire_net_plat.fun.bean.test.TestBean">
+        select * from test;
+    </select>
+</mapper>
