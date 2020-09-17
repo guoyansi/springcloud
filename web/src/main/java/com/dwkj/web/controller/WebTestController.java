@@ -35,7 +35,7 @@ public class WebTestController {
     public ModelAndView getTestList(Integer age, HttpServletRequest request, HttpServletResponse response){
 
 
-
+        System.out.println("中文测试");
         Cookie[] cs=request.getCookies();
         System.out.println("==============");
         for (Cookie c : cs) {
